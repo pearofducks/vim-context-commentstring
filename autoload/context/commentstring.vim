@@ -14,6 +14,11 @@ let g:context#commentstring#table.html = {
 			\ 'javaScript'  : '//%s',
 			\ 'cssStyle'    : '/*%s*/',
 			\}
+			
+let g:context#commentstring#table.vue = {
+			\ 'javaScript'  : '//%s',
+			\ 'cssStyle'    : '/*%s*/',
+			\}
 
 let g:context#commentstring#table.xhtml = g:context#commentstring#table.html
 
